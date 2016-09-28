@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>OT Name Table Switcher</title>
+    <script src="js/bower_components/requirejs/require.js"></script>
+    <script>
+    require.config({baseUrl: 'js'});
+    require(['bootstrap'], function(require) {
+        console.log('hello', require)
+        require(['main'], function(main){main()});
+    });
+    </script>
+</head>
+<body>
+<article>
+    <div class="drop-fonts"><p>Drop font files here or click.</p></div>
+    <div class="interface"></div>
+</article>
+</body>
+</html>

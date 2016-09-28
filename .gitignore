@@ -1,0 +1,3 @@
+app/static/js/bower_components/*
+*.pyc
+app/lib/*
