@@ -16,12 +16,15 @@ https://nametableswapper.appspot.com
 First install the dependencies with:
 
 ```
-pip install -t app/lib -r requirements.txt
+$ git clone git@github.com:graphicore/nametableswapper.git
+$ cd nametableswapper
+$ bower install
+$ pip install -t app/lib -r requirements.txt
 ```
 
 And then run the webapp with:
 
 ```
-dev_appserver.py app/
+$ dev_appserver.py app/
 ```
 
